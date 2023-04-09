@@ -31,9 +31,8 @@
             gzdoom
           ];
           text = ''
-            rm -rf ~/.config/gzdoom
-            mkdir -p ~/.config/gzdoom
-            cp ${freedoom}/* ~/.config/gzdoom/
+            install -d ~/.config/gzdoom
+            install -D ${freedoom}/* ~/.config/gzdoom/
             gzdoom ${self.outputs.packages.${system}.bloom}/Bloom.pk3
           '';
         };
