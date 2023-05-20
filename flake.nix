@@ -6,7 +6,7 @@
       flake = false;
     };
     bloom = {
-      url = "https://www.moddb.com/downloads/mirror/222826/122/58ef025afed35e393d4b7eac81d5b4fa";
+      url = "https://www.moddb.com/downloads/mirror/222826/124/254b69a62b9d85f85de23bf838ef3062";
       flake = false;
     };
   };
